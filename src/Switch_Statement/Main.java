@@ -52,8 +52,7 @@ public class Main {
             case 8 -> System.out.println("eight");
             case 9 -> System.out.println("nine");
             case 10 -> System.out.println("ten");
-            default -> {System.out.println("Cannot give you the name");
-            }
+            default -> System.out.println("Cannot give you the name");
         }
     }
 }
